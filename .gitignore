@@ -1,0 +1,19 @@
+# mundos
+world/
+
+#infomações lais
+whitelist.json
+banned-ips.json
+banned-players.json
+usercache.json
+ops.json
+eula.txt
+logs/
+*.db
+
+#plugins e servidor
+*.jar
+*.zip
+
+#extra
+.update-lock
