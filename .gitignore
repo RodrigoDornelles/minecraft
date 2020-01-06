@@ -2,6 +2,7 @@
 world/
 
 #infomações lais
+playerdata.yml
 whitelist.json
 banned-ips.json
 banned-players.json
@@ -9,6 +10,7 @@ usercache.json
 ops.json
 eula.txt
 logs/
+*.users
 *.db
 
 #plugins e servidor
