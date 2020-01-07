@@ -2,6 +2,7 @@
 world/
 
 #infomações lais
+plugins/mcMMO/flatfile/
 whitelist.json
 banned-ips.json
 banned-players.json

@@ -1,0 +1,21 @@
+Enable-Debug: false
+Default:
+  Difficulty: HARD
+  PvP-On-Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+  PvP-Off-Message: '&aThe sun rises! PvP is off! ({difficulty})'
+worlds:
+  world:
+    Enabled: true
+    Only-Difficulty: false
+    PvP-On:
+      Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+      Difficulty: HARD
+      Time: 13000
+      Sound: AMBIENCE_CAVE
+      Commands: []
+    PvP-Off:
+      Message: '&aThe sun rises! PvP is off! ({difficulty})'
+      Difficulty: PEACEFUL
+      Time: 0
+      Sound: CHICKEN_HURT
+      Commands: []
