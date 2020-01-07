@@ -23,7 +23,7 @@
 
 # Define the prefix for the command /broadcast
 
-broadcastPrefix: '&4[&aServer&4]'
+broadcastPrefix: '&5[SERVER] &b'
 
 # Define the /msg format for sending and receiving messages.
 # %player%, and %message% variables can be used in this message.
@@ -32,21 +32,21 @@ broadcastPrefix: '&4[&aServer&4]'
 # IMPORTANT: For socialspy, the string "me" will be replaced with the player's name, so please use 'me' to represent the
 # player sending or receiving the message to avoid formatting issues.
 
-msgMessage-Sent: '&6[&cme &6-> &r%player%&6]&r %message%'
-msgMessage-Receive: '&6[&r%player% &6-> &cme&6]&r %message%'
+msgMessage-Sent: '&5[&bme &5-> &r%player%&5]&r %message%'
+msgMessage-Receive: '&5[&r%player% &5-> &bme&5]&r %message%'
 
 # Define message for when a tpa request is received.
 # %sender% variable can be used in this message.
 tpaMessage: 
-- '&6Tpa request received from &c%sender%'
-- '&6Use &c/tpaccept &6to accept the request.'
-- '&6use &c/tpdeny &6to deny the request.'
+- '&5[TPA] &bJogador carente &f%sender%&b, está afim de ir até você!'
+- '&bUtilize &f/tpaccept &bpara aceitar teleporte'
+- '&bou então &f/tpdeny &bpara rejeita-lo.'
 # Define message for when a tpahere request is received
 # %sender% variable can be used in this message.
 tpaHereMessage: 
-- '&c%sender% &6would like you to teleport to their location.'
-- '&6Use &c/tpaccept &6to accept the request.'
-- '&6use &c/tpdeny &6to deny the request.'
+- '&5[TPA] &bJogador carente &f%sender%&b, está te chamando!'
+- '&bUtilize &f/tpaccept &bpara aceitar teleporte'
+- '&bou então &f/tpdeny &bpara rejeita-lo.'
 
 
 # -=- Other Messages -=-
@@ -54,12 +54,12 @@ tpaHereMessage:
 # Define join and leave messages for the server.
 # PlaceholderAPI is supported in the following messages, along with the %player% variable.
 
-joinMessage: '&e%player% brotou no servidor.'
-leaveMessage: '&e%player% quitou.'
+joinMessage: '&5[SERVER] &bJogador &f%player% &bbrotou no servidor.'
+leaveMessage: '&5[SERVER] &bJogador &f%player% &bquitou.'
 
 # Define message for when a player joins for the first time
 
-firstJoinMessage: '&dSeja bem vindo &ecorno!'
+firstJoinMessage: '&5[SERVER] &bTodo corno é bem trata-do em nosso servidor, seja bem vindo!'
 
 # Choose a nickname prefix which will be displayed in front of nicknames
 # NOTE: Should only be a single character.
@@ -67,7 +67,7 @@ nick-prefix: '~'
 
 # Define MOTD (message sent to player when they join.)
 # PlaceholderAPI is supported in the following message, along with the %player% variable.
-motd: "&6Welcome to our server %player%!\n&7Run /help!"
+motd: "&5[SERVER] &bSeja bem-vindo de volta corno!"
 
 
 # Change the server chat format here
@@ -79,7 +79,7 @@ motd: "&6Welcome to our server %player%!\n&7Run /help!"
 # %world% - The current player's world
 # %playerDisplay% - Uses the players nickname instead of their IGN name.
 
-chat-format: '&5<%playerDisplay%> &f%message%'
+chat-format: '&5[CHAT] &b%playerDisplay%: &f%message%'
 
 # Enable different chat formats for different groups.
 enable-per-group-formatting: false
@@ -104,7 +104,7 @@ group-formats:
 # (Personally, I'd recommend disabling this. I only have it to remind you to report all bugs to the github!)
 # NOTE: It is only displayed to OPS.
 
-enable-startupMessage: true
+enable-startupMessage: false
 
 # Choose whether or not to use JEssentials integrated economy
 enable-economy: true
@@ -137,7 +137,7 @@ enable-broadcastAfk: true
 
 # Choose to enable or disable automatically kicking a player when afk.
 
-enable-afkAutoKick: false
+enable-afkAutoKick: true
 # If the above is true, how long (in minutes) of the player being stationary until they are kicked?
 # NOTE: Do not use decimal numbers. This will return an error to console.
 afkKickTime: 15
@@ -204,10 +204,10 @@ permissionPrefix: 'jessentials'
 # NOTE: If the text you provide is too long to fit on a sign in-game, you will get an error to the console and the sign will not work.
 # (THIS DOES NOT INCLUDE COLOR CODES)
 
-healSign: '&a[Heal]'
-disposalSign: '&8[Disposal]'
-freeSign: '&1[Free]'
-warpSign: '&1[Warp]'
-kitSign: '&1[Kit]'
-buySign: '&1[Buy]'
-sellSign: '&1[Sell]'
+healSign: '&5[HEAL]'
+disposalSign: '&5[DISPOSAL]'
+freeSign: '&5[FREE]'
+warpSign: '&5[WARP]'
+kitSign: '&5[KIT]'
+buySign: '&5[BUY]'
+sellSign: '&5[SELL]'
