@@ -1,20 +1,20 @@
 Enable-Debug: false
 Default:
   Difficulty: HARD
-  PvP-On-Message: '&4It''s Night! PvP is enabled! ({difficulty})'
-  PvP-Off-Message: '&aThe sun rises! PvP is off! ({difficulty})'
+  PvP-On-Message: '&5[PVP] &bDesafio hardcore &f[PVP ON]'
+  PvP-Off-Message: '&5[PVP] &bEstá me tirando? &f[PVP OFF]'
 worlds:
   world:
     Enabled: true
     Only-Difficulty: false
     PvP-On:
-      Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+      Message: '&5[PVP] &bDesafio hardcore &f[PVP ON]'
       Difficulty: HARD
       Time: 13000
       Sound: AMBIENCE_CAVE
       Commands: []
     PvP-Off:
-      Message: '&aThe sun rises! PvP is off! ({difficulty})'
+      Message: '&5[PVP] &bEstá me tirando? &f[PVP OFF]'
       Difficulty: PEACEFUL
       Time: 0
       Sound: CHICKEN_HURT
