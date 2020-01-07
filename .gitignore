@@ -2,6 +2,9 @@
 world/
 
 #infomaçõ temporarias
+plugins/GriefPreventionData/ClaimData/
+plugins/GriefPreventionData/PlayerData/
+plugins/JEssentials/homes.yml
 plugins/mcMMO/flatfile/
 playerdata.yml
 whitelist.json
