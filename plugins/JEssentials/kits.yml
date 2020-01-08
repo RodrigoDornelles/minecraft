@@ -1,1 +1,14 @@
-Kit: {}
+Kit:
+  claim:
+    items:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_SPADE
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        type: SIGN
+    armor:
+      helmet: air
+      chestplate: air
+      leggings: air
+      boots: air
