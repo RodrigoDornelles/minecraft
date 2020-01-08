@@ -1,0 +1,16 @@
+# Essentials
+-jessentials.mail
+-jessentials.mail.*
+-jessentials.me 
+# Horse
+mcmmohorses.help
+mcmmohorses.me
+mcmmohorses.stats
+mcmmohorses.skills.info
+mcmmohorses.claim
+mcmmohorses.buy
+mcmmohorses.sell
+mcmmohorses.summon
+mcmmohorses.banish
+mcmmohorses.kill
+mcmmohorses.groups.default

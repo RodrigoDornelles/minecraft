@@ -90,7 +90,8 @@ enable-per-group-formatting: true
 group-formats:
   # Format: groupname: 'format'
   # 2 Examples given below.
-  vip: '&5[CHAT] &b%playerDisplay% &5(&bAngus&5)&b: &f%message%'
+  vip: '&5[CHAT] &b%playerDisplay% &5(&bGado Plus&5)&b: &f%message%'
+  admin: '&5[CHAT] &b%playerDisplay% &5(&bGado Rei&5)&b: &f%message%'
   owner: '&5[CHAT] &b%playerDisplay% &5(&bGado Master&5)&b: &f%message%'
 
 
