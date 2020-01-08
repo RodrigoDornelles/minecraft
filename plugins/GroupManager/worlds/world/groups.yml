@@ -69,7 +69,7 @@ groups:
     - g:groupmanager_admin
     - 'g:no_mail'
     inheritance:
-    - default
+    - admin
     info:
       prefix: ''
       build: true

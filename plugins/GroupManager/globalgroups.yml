@@ -208,6 +208,8 @@ groups:
       mcmmohorses.summon
       mcmmohorses.banish
       mcmmohorses.kill
+      mcmmohorses.admin.set
+      mcmmohorses.admin.set.name
       mcmmohorses.groups.default
 
   g:horse_admin:
