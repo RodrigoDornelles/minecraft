@@ -264,6 +264,7 @@ groups:
     - vanish.silentchests
 
   g:no_mail:
+    permissions:
     -jessentials.mail
     -jessentials.mail.*
     -jessentials.me 

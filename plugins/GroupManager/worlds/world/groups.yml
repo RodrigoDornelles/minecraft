@@ -61,7 +61,6 @@ groups:
   Owner:
     default: false
     permissions:
-    - '*'
     - 'g:no_mail'
     inheritance:
     - admin
