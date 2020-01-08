@@ -20,7 +20,7 @@
 #     executor: CONSOLE
 #
 # Supported command events: onLogin, onJoin, onRegister
-onLogin:
-    welcome:
-        command: 'msg %p Welcome back!'
-        executor: 'PLAYER'
+#onLogin:
+    #welcome:
+        #command: 'msg %p Welcome back!'
+        #executor: 'PLAYER'

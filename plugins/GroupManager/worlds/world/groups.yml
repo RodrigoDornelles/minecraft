@@ -34,7 +34,7 @@ groups:
     info:
       prefix: ''
       build: false
-      suffix: '&5(&bGado Premium&5)'
+      suffix: ' &5(&bGado Premium&5)'
   Moderator:
     default: false
     permissions: []
@@ -44,9 +44,9 @@ groups:
     - g:bukkit_moderator
     - g:essentials_moderator
     info:
-      prefix: '&5'
+      prefix: ''
       build: true
-      suffix: '&5(&bGado Princeso&5)'
+      suffix: ' &5(&bGado Princeso&5)'
   Admin:
     default: false
     permissions: []
@@ -59,16 +59,18 @@ groups:
     info:
       prefix: ''
       build: true
-      suffix: '&5(&bGado Rei&5)'
+      suffix: ' &5(&bGado Rei&5)'
   Owner:
     default: false
     permissions:
     - bukkit.command.op.give
     - bukkit.command.op.take
+    - g:groupmanager_mod
+    - g:groupmanager_admin
     - 'g:no_mail'
     inheritance:
-    - admin
+    - default
     info:
       prefix: ''
       build: true
-      suffix: '&5(&bGado Master&5)'
+      suffix: ' &5(&bGado Master&5)'

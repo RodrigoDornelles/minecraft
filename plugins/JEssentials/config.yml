@@ -125,8 +125,9 @@ enable-nick-prefix: true
 # (NOTE: Player must also have permission 'jessentials.sethome.multiple')
 homes:
 # FORMAT: "group name: number"
+  default: 2
   vip: 5
-  moderator: 10
+  moderator: 5
   admin: 40
 
 # Choose whether to enable broadcasting when a player is banned.

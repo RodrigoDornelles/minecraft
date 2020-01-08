@@ -8,7 +8,7 @@
 save-interval: 24000
 
 # Give a player's first horse for free (works with /h summon not /h claim)
-free-horse: false
+free-horse: true
 
 # If a claimed horse dies, it's gone forever
 permanent-death: false
@@ -43,7 +43,7 @@ groups:
 #### Economy
 
 # Enables the economy features (requires Vault)
-enable-economy: true
+enable-economy: false
 
 # Default cost to claim a horse
 claim-cost: 500

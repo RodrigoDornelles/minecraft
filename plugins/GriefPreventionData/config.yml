@@ -46,7 +46,7 @@ GriefPrevention:
     PunishLogout: true
     CombatTimeoutSeconds: 15
     AllowCombatItemDrop: false
-    BlockedSlashCommands: /home;/vanish;/spawn;/tpa
+    BlockedSlashCommands: /home;/vanish;/spawn;/tpa;/warp
     ProtectPlayersInLandClaims:
       PlayerOwnedClaims: true
       AdministrativeClaims: true

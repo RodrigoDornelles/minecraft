@@ -35,8 +35,8 @@ mob-bars:
   use-custom-file: false
   world-disabling: false
   disabled-worlds: world_nether,world_the_end
-  type-disabling: false
-  disabled-types: creeper,zombie,skeleton,iron_golem
+  type-disabling: true
+  disabled-types: squid
 hooks:
   epicboss: false
 fix-tab-names: true
