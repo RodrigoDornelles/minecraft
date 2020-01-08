@@ -94,101 +94,101 @@ groups:
     - bukkit.command.whitelist.reload
     - bukkit.command.whitelist.remove
 
-# Permission nodes for Essentials
+# Permission nodes for jessentials
 # by ementalo, snowleo, and KHobbits
-# http://dev.bukkit.org/server-mods/essentials/
+# http://dev.bukkit.org/server-mods/jessentials/
 
-  g:essentials_default:
+  g:jessentials_default:
     permissions:
-    - essentials.help
-    - essentials.helpop
-    - essentials.list
-    - essentials.motd
-    - essentials.rules
-    - essentials.spawn
-    - essentials.jail.allow.help
-    - essentials.jail.allow.helpop
-    - essentials.jail.allow.rules
+    - jessentials.help
+    - jessentials.helpop
+    - jessentials.list
+    - jessentials.motd
+    - jessentials.rules
+    - jessentials.spawn
+    - jessentials.jail.allow.help
+    - jessentials.jail.allow.helpop
+    - jessentials.jail.allow.rules
 
-  g:essentials_moderator:
+  g:jessentials_moderator:
     permissions:
-    - -essentials.spawner.enderdragon
-    - essentials.afk.kickexempt
-    - essentials.ban
-    - essentials.ban.notify
-    - essentials.banip
-    - essentials.book.title
-    - essentials.book.others
-    - essentials.broadcast
-    - essentials.chat.url
-    - essentials.chat.magic
-    - essentials.clearinventory
-    - essentials.delwarp
-    - essentials.eco.loan
-    - essentials.exp.others
-    - essentials.ext
-    - essentials.fly
-    - essentials.fly.safelogin
-    - essentials.getpos
-    - essentials.getpos.others
-    - essentials.helpop.receive
-    - essentials.home.others
-    - essentials.invsee
-    - essentials.jails
-    - essentials.jump
-    - essentials.kick
-    - essentials.kick.notify
-    - essentials.kill
-    - essentials.kits.*
-    - essentials.msg.magic
-    - essentials.mute
-    - essentials.mute.notify
-    - essentials.nick.color
-    - essentials.nick.others
-    - essentials.realname
-    - essentials.seen.banreason
-    - essentials.seen.extra
-    - essentials.setwarp
-    - essentials.signs.create.*
-    - essentials.signs.break.*
-    - essentials.spawner
-    - essentials.spawner.*
-    - essentials.thunder
-    - essentials.time
-    - essentials.time.set
-    - essentials.protect.alerts
-    - essentials.protect.admin
-    - essentials.protect.ownerinfo
-    - essentials.ptime
-    - essentials.ptime.others
-    - essentials.togglejail
-    - essentials.top
-    - essentials.tp
-    - essentials.tp.others
-    - essentials.tphere
-    - essentials.tppos
-    - essentials.tptoggle
-    - essentials.unban
-    - essentials.unbanip
-    - essentials.vanish
-    - essentials.vanish.effect
-    - essentials.warps.*
-    - essentials.weather
-    - essentials.whois
-    - essentials.workbench
-    - essentials.world
-    - essentials.worlds.*
-    - essentials.jail.allow.jails
-    - essentials.jail.allow.togglejail
+    - -jessentials.spawner.enderdragon
+    - jessentials.afk.kickexempt
+    - jessentials.ban
+    - jessentials.ban.notify
+    - jessentials.banip
+    - jessentials.book.title
+    - jessentials.book.others
+    - jessentials.broadcast
+    - jessentials.chat.url
+    - jessentials.chat.magic
+    - jessentials.clearinventory
+    - jessentials.delwarp
+    - jessentials.eco.loan
+    - jessentials.exp.others
+    - jessentials.ext
+    - jessentials.fly
+    - jessentials.fly.safelogin
+    - jessentials.getpos
+    - jessentials.getpos.others
+    - jessentials.helpop.receive
+    - jessentials.home.others
+    - jessentials.invsee
+    - jessentials.jails
+    - jessentials.jump
+    - jessentials.kick
+    - jessentials.kick.notify
+    - jessentials.kill
+    - jessentials.kits.*
+    - jessentials.msg.magic
+    - jessentials.mute
+    - jessentials.mute.notify
+    - jessentials.nick.color
+    - jessentials.nick.others
+    - jessentials.realname
+    - jessentials.seen.banreason
+    - jessentials.seen.extra
+    - jessentials.setwarp
+    - jessentials.signs.create.*
+    - jessentials.signs.break.*
+    - jessentials.spawner
+    - jessentials.spawner.*
+    - jessentials.thunder
+    - jessentials.time
+    - jessentials.time.set
+    - jessentials.protect.alerts
+    - jessentials.protect.admin
+    - jessentials.protect.ownerinfo
+    - jessentials.ptime
+    - jessentials.ptime.others
+    - jessentials.togglejail
+    - jessentials.top
+    - jessentials.tp
+    - jessentials.tp.others
+    - jessentials.tphere
+    - jessentials.tppos
+    - jessentials.tptoggle
+    - jessentials.unban
+    - jessentials.unbanip
+    - jessentials.vanish
+    - jessentials.vanish.effect
+    - jessentials.warps.*
+    - jessentials.weather
+    - jessentials.whois
+    - jessentials.workbench
+    - jessentials.world
+    - jessentials.worlds.*
+    - jessentials.jail.allow.jails
+    - jessentials.jail.allow.togglejail
 
-  g:essentials_admin:
+  g:jessentials_admin:
     permissions:
-    - -essentials.backup
-    - -essentials.essentials
-    - -essentials.setspawn
-    - -essentials.reloadall
-    - -essentials.plugin
-    - essentials.*
+    - -jessentials.backup
+    - -jessentials.jessentials
+    - -jessentials.setspawn
+    - -jessentials.reloadall
+    - -jessentials.plugin
+    - jessentials.*
 
 # Permission nodes for Towny by ElgarL
 # http://dev.bukkit.org/server-mods/towny-advanced/
@@ -255,7 +255,7 @@ groups:
     - vanish.nopickup
     - vanish.preventincomingdamage
     - vanish.hooks.dynmap.alwayshidden
-    - vanish.hooks.essentials.hide
+    - vanish.hooks.jessentials.hide
 
   g:vanish_admin:
     permissions:

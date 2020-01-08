@@ -193,7 +193,7 @@ checkForUpdates: true
 # By changing the prefix, I could make it myservernamehere.msg
 # NOTE: You CANNOT use spaces or special characters. This will cause all permissions to not work properly.
 
-permissionPrefix: 'essentials'
+permissionPrefix: 'jessentials'
 
 
 #-----------------------------------------#
