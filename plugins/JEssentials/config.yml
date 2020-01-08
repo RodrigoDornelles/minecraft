@@ -79,10 +79,10 @@ motd: "&5[SERVER] &bSeja bem-vindo de volta corno!"
 # %world% - The current player's world
 # %playerDisplay% - Uses the players nickname instead of their IGN name.
 
-chat-format: '&5[CHAT] &b%playerDisplay%: &f%message%'
+chat-format: '&5[CHAT] &r%playerDisplay%: &f%message%'
 
 # Enable different chat formats for different groups.
-enable-per-group-formatting: true
+enable-per-group-formatting: false
 
 # If enable-per-group-formatting is enabled, different groups can have different chat formats.
 # Variables are exactly the same as normal chat-format ones
@@ -90,9 +90,10 @@ enable-per-group-formatting: true
 group-formats:
   # Format: groupname: 'format'
   # 2 Examples given below.
-  vip: '&5[CHAT] &b%playerDisplay% &5(&bGado Plus&5)&b: &f%message%'
-  admin: '&5[CHAT] &b%playerDisplay% &5(&bGado Rei&5)&b: &f%message%'
-  owner: '&5[CHAT] &b%playerDisplay% &5(&bGado Master&5)&b: &f%message%'
+  vip: '&5[CHAT] &b%playerDisplay%&5(&bGado Plus&5)&b: &f%message%'
+  mod: '&5[CHAT] &b%playerDisplay%&5(&bGado Principe&5)&b: &f%message%'
+  admin: '&5[CHAT] &b%playerDisplay%&5(&bGado Rei&5)&b: &f%message%'
+  owner: '&5[CHAT] &b%playerDisplay%&5(&bGado Master&5)&b: &f%message%'
 
 
 #-----------------------------------------#
@@ -192,7 +193,7 @@ checkForUpdates: true
 # By changing the prefix, I could make it myservernamehere.msg
 # NOTE: You CANNOT use spaces or special characters. This will cause all permissions to not work properly.
 
-permissionPrefix: 'jessentials'
+permissionPrefix: 'essentials'
 
 
 #-----------------------------------------#

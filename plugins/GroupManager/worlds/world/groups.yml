@@ -13,26 +13,27 @@ groups:
     default: true
     permissions:
     - -bukkit.command.kill
+    - 'g:no_mail'
     inheritance:
     - g:groupmanager_default
     - g:bukkit_default
     - g:essentials_default
-    - g:towny_default
     info:
-      prefix: '&e'
+      prefix: ''
       build: false
       suffix: ''
-  Builder:
+  Default:
     default: false
-    permissions: []
+    permissions:
+    - -bukkit.command.kill
     inheritance:
-    - default
-    - g:essentials_builder
-    - g:towny_builder
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
     info:
-      prefix: '&2'
-      build: true
-      suffix: ''
+      prefix: ''
+      build: false
+      suffix: '&5(&bGado Premium&5)'
   Moderator:
     default: false
     permissions: []
@@ -41,12 +42,10 @@ groups:
     - g:groupmanager_moderator
     - g:bukkit_moderator
     - g:essentials_moderator
-    - g:towny_moderator
-    - g:vanish_moderator
     info:
       prefix: '&5'
       build: true
-      suffix: ''
+      suffix: '&5(&bGado Princeso&5)'
   Admin:
     default: false
     permissions: []
@@ -55,21 +54,18 @@ groups:
     - g:groupmanager_admin
     - g:bukkit_admin
     - g:essentials_admin
-    - g:towny_admin
-    - g:vanish_admin
     info:
-      prefix: '&c'
+      prefix: ''
       build: true
-      suffix: ''
+      suffix: '&5(&bGado Rei&5)'
   Owner:
     default: false
     permissions:
     - '*'
-    - -vanish.effects.*
-    - +vanish.effects.toggle.all
+    - 'g:no_mail'
     inheritance:
     - admin
     info:
-      prefix: '&4'
+      prefix: '&5(&bGado Master&5)'
       build: true
       suffix: ''

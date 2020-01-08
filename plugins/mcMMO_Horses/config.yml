@@ -32,8 +32,9 @@ infuriate-cooldown: 20
 # I recommend using -1 for each group if using economy.
 # The horse cost multiplier makes owning tons of horses exponentially expensive
 groups:
-    default: 10 # Given to everyone by default
-    admin: -1 # Given to ops by default
+    default: 1 # Given to everyone by default
+    vip: 5
+    admin: 10 # Given to ops by default
 #    nooblets: 5 # Requires node: mcmmohorses.groups.nooblets
 #    moderators: -1 # Requires node: mcmmohorses.groups.moderators
 #    vip: 20 # Requires node: mcmmohorses.groups.vip
@@ -42,7 +43,7 @@ groups:
 #### Economy
 
 # Enables the economy features (requires Vault)
-enable-economy: false
+enable-economy: true
 
 # Default cost to claim a horse
 claim-cost: 500

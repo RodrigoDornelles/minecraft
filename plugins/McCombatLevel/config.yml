@@ -1,6 +1,6 @@
 enable_prefix: true
 enable_tag_level: true
-tag_name: Combat
+tag_name: RANK
 tag_color: GREEN
-prefix_bracket_color: GOLD
-prefix_level_color: DARK_GREEN
+prefix_bracket_color: DARK_PURPLE
+prefix_level_color: AQUA

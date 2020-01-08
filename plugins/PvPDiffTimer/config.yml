@@ -14,6 +14,7 @@ worlds:
       Sound: AMBIENCE_CAVE
       Commands:
       - gamerule keepInventory false
+      - gamerule naturalRegeneration false
     PvP-Off:
       Message: '&5[PVP] &bEstá me tirando? &f[PVP OFF]'
       Difficulty: PEACEFUL
@@ -21,3 +22,4 @@ worlds:
       Sound: CHICKEN_HURT
       Commands:
       - gamerule keepInventory true
+      - gamerule naturalRegeneration true
