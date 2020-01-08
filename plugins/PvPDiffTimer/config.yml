@@ -12,10 +12,12 @@ worlds:
       Difficulty: HARD
       Time: 13000
       Sound: AMBIENCE_CAVE
-      Commands: []
+      Commands:
+      - gamerule keepInventory false
     PvP-Off:
       Message: '&5[PVP] &bEstá me tirando? &f[PVP OFF]'
       Difficulty: PEACEFUL
       Time: 0
       Sound: CHICKEN_HURT
-      Commands: []
+      Commands:
+      - gamerule keepInventory true

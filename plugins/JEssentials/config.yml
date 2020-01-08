@@ -82,7 +82,7 @@ motd: "&5[SERVER] &bSeja bem-vindo de volta corno!"
 chat-format: '&5[CHAT] &b%playerDisplay%: &f%message%'
 
 # Enable different chat formats for different groups.
-enable-per-group-formatting: false
+enable-per-group-formatting: true
 
 # If enable-per-group-formatting is enabled, different groups can have different chat formats.
 # Variables are exactly the same as normal chat-format ones
@@ -90,8 +90,8 @@ enable-per-group-formatting: false
 group-formats:
   # Format: groupname: 'format'
   # 2 Examples given below.
-  vip: '&c<%playerDisplay%> &8%message%'
-  admin: '&e[GADO MASTER] &4<%playerDisplay%> &c%message%'
+  vip: '&5[CHAT] &b%playerDisplay% &5(&bAngus&5)&b: &f%message%'
+  owner: '&5[CHAT] &b%playerDisplay% &5(&bGado Master&5)&b: &f%message%'
 
 
 #-----------------------------------------#
