@@ -265,9 +265,9 @@ groups:
 
   g:no_mail:
     permissions:
-    -jessentials.mail
-    -jessentials.mail.*
-    -jessentials.me 
+    - -jessentials.mail
+    - -jessentials.mail.*
+    - -jessentials.me 
 
   g:horse_default:
     permissions:
