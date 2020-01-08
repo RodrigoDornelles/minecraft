@@ -22,7 +22,7 @@ groups:
       prefix: ''
       build: false
       suffix: ''
-  Default:
+  Vip:
     default: false
     permissions:
     - -bukkit.command.kill
