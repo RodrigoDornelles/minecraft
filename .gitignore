@@ -1,7 +1,7 @@
-# mundos
-world/
+# mundo
+/world/
 
-#infomaçõ temporarias
+#infomacoes temporarias
 plugins/GriefPreventionData/ClaimData/
 plugins/GriefPreventionData/PlayerData/
 plugins/JEssentials/homes.yml
@@ -13,6 +13,7 @@ banned-players.json
 usercache.json
 ops.json
 eula.txt
+backup/
 logs/
 *.users
 *.db
@@ -23,3 +24,4 @@ logs/
 
 #extra
 .update-lock
+.DS_Store
