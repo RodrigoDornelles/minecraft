@@ -13,6 +13,7 @@ groups:
     default: true
     permissions:
     - -bukkit.command.kill
+    - 'g:horse_default'
     - 'g:no_mail'
     inheritance:
     - g:groupmanager_default
@@ -54,6 +55,7 @@ groups:
     - g:groupmanager_admin
     - g:bukkit_admin
     - g:essentials_admin
+    - g:horse_admin
     info:
       prefix: ''
       build: true
@@ -61,10 +63,12 @@ groups:
   Owner:
     default: false
     permissions:
+    - bukkit.command.op.give
+    - bukkit.command.op.take
     - 'g:no_mail'
     inheritance:
     - admin
     info:
-      prefix: '&5(&bGado Master&5)'
+      prefix: ''
       build: true
-      suffix: ''
+      suffix: '&5(&bGado Master&5)'

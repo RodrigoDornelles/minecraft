@@ -15,6 +15,8 @@ ops.json
 eula.txt
 backup/
 logs/
+*.LOG
+*.log 
 *.users
 *.db
 
